@@ -1,0 +1,139 @@
+.BROWSE_BODY {
+  max-height: 100vh;
+  background-image: url(./5559852.jpg);
+  image-rendering: -webkit-optimize-contrast;
+  padding-bottom: 69px;
+
+  /* Full height */
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* img {
+  max-height: 200px;
+  width: auto;
+  vertical-align: middle;
+} */
+
+.btn1 {
+  color: #301d1d;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn1:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.btn2 {
+  color: #7e4d4d;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn2:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card_image {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card_content {
+  padding: 1rem;
+  /* background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%); */
+  background-color: #7f53ac;
+  background-image: linear-gradient(290deg, #7f53ac 0%, #647dee 74%);
+  text-align: center;
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+.browseHeader {
+  font-family: Roboto;
+  font-size: 4rem;
+  padding: 2rem 0;
+  font-weight: bold;
+}

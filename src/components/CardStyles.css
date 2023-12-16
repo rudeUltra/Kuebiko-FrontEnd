@@ -1,0 +1,14 @@
+.card{
+    max-height: 30%;
+}
+
+.cardImage{
+    width:40%;
+    max-height:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardBody{
+    background:rgb(236, 236, 236);
+}
